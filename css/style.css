@@ -1,0 +1,73 @@
+/* estilização corpo da página */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #43CBFF,
+    #9708CC);
+}
+
+.flex-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* estilização do formulário */
+.box {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    padding: 5vh;
+    text-align: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
+    background-color: white;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    float: left;
+    font-size: medium;
+}
+
+#email, #password {
+    width: 90%;
+}
+
+label {
+    font-size: small;
+}
+
+label, #remember {
+    float: left;
+    margin-left: 2px;
+}
+
+/* estilização do botão enviar */
+button {
+    padding: 5px;
+    width: 40%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* estilização link de redefinição de senha */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
